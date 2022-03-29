@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #1D539E;
+}
+
+h1 {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    padding-top: 5vh;
+    font-size: 55px;
+}
+
+p {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    padding-top: 5vh;
+    word-wrap: break-word;
+    font-size: 20px;
+}
+
+.plan-free {
+    width: 355px;
+    height: 470px;
+    margin-left: 167px;
+    margin-top: 80px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.header-info h2 {
+    color: rgb(0, 0, 0);
+    align-items: center;
+    text-align: left;
+    margin-left: 35px;
+    padding-top: 20px;
+    font-weight: 100;
+}
+
+.header-info p {
+    text-align: left;
+    margin-left: 35px;
+    font-size:30px;
+    font-weight: bold;
+    color: rgb(0, 0, 0)
+}
+
+.body-info h1 {
+    color: rgb(133, 133, 133);
+    text-align: left;
+    margin-left: 35px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    font-weight: 100;
+    font-size: 18px;
+    word-break: break-word;
+    word-wrap: wrap;
+}
+
+.body-info p {
+    color: rgb(133, 133, 133);
+    text-align: left;
+    margin-left: 35px;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-weight: 100;
+    font-size: 18px;
+    word-break: break-word;
+    word-wrap: wrap;
+}
+
+.body-info button {
+    width: 297px;
+    height: 52px;
+    margin-top: 50px;
+    margin-left: 28px;
+    margin-right: 30px;
+    border-radius: 10px;
+    border: 1px solid #1D539E;
+    color: #1D539E;
+}
+
+.plan-basic {
+    width: 355px;
+    height: 470px;
+    margin-top: -470px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.special {
+    width: 355px;
+    height: 66px;
+    margin-bottom:-20px ;
+    background-color: #FFCC29;
+    align-items: center;
+    
+    box-shadow: 0px 1px 2px rgba(142, 150, 185, 0.25);
+    border-radius: 8px 8px 0px 0px;
+}
+
+.special h2 {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin-left: 35px;
+    font-weight: 100;
+}
+
+.header-info2 h2 {
+    color: rgb(0, 0, 0);
+    align-items: center;
+    text-align: left;
+    margin-left: 35px;
+    padding-top: 20px;
+    font-weight: 100;
+}
+
+.header-info2 p {
+    text-align: left;
+    margin-left: 35px;
+    font-size:30px;
+    font-weight: bold;
+    color: rgb(0, 0, 0)
+}
+
+.body-info2 h1 {
+    color: rgb(133, 133, 133);
+    text-align: left;
+    margin-left: 35px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    font-weight: 100;
+    font-size: 18px;
+    word-break: break-word;
+    word-wrap: wrap;
+}
+
+.body-info2 p {
+    color: rgb(133, 133, 133);
+    text-align: left;
+    margin-left: 35px;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-weight: 100;
+    font-size: 18px;
+    word-break: break-word;
+    word-wrap: wrap;
+}
+
+.body-info2 button {
+    width: 297px;
+    height: 52px;
+    margin-top: 32px;
+    margin-left: 28px;
+    margin-right: 30px;
+    border-radius: 10px;
+    border: 1px solid #1D539E;
+    color: #1D539E;
+}
+
+.plan-professional {
+    width: 355px;
+    height: 470px;
+    margin-left: 991px;
+    margin-top: -470px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.header-info3 h2 {
+    color: rgb(0, 0, 0);
+    align-items: center;
+    text-align: left;
+    margin-left: 35px;
+    padding-top: 20px;
+    font-weight: 100;
+}
+
+.header-info3 p {
+    text-align: left;
+    margin-left: 35px;
+    font-size:30px;
+    font-weight: bold;
+    color: rgb(0, 0, 0)
+}
+
+.body-info3 h1 {
+    color: rgb(133, 133, 133);
+    text-align: left;
+    margin-left: 35px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    font-weight: 100;
+    font-size: 18px;
+    word-break: break-word;
+    word-wrap: wrap;
+}
+
+.body-info3 p {
+    color: rgb(133, 133, 133);
+    text-align: left;
+    margin-left: 35px;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-weight: 100;
+    font-size: 18px;
+    word-break: break-word;
+    word-wrap: wrap;
+}
+
+.body-info3 button {
+    width: 297px;
+    height: 52px;
+    margin-top: 30px;
+    margin-left: 28px;
+    margin-right: 30px;
+    border-radius: 10px;
+    border: 1px solid #1D539E;
+    color: #1D539E;
+}
